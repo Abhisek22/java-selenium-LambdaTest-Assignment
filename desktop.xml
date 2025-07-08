@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Suite">
+
+
+  <test name="Test1">  
+      <parameter name="browser" value="chrome"/>
+      <parameter name="browser" value="137.0"/>
+      <parameter name="platform" value="Win 10"/>     
+       <classes>
+       <class name="com.lambdatest.WebAutomationAssignmentChrome"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test2">  
+      <parameter name="browser" value="edge"/>
+      <parameter name="browser" value="137.0"/>
+      <parameter name="platform" value="MacOS Sierra"/>     
+       <classes>
+       <class name="com.lambdatest.WebAutomationAssignmentChrome"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
